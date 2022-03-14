@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 이때 namespace는 각각의 mapper를 구분하는 고유명이 된다 -->
+<mapper namespace="com.shopping.mappers.member">
+
+	<!-- mapper 태그 사이에 필요한 sql 쿼리를 작성한다 -->
+
+</mapper>
