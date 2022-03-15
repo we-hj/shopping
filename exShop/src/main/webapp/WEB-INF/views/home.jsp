@@ -12,5 +12,8 @@
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
+
+<p><a href="/display/gdsList">상품목록</a></p>
+
 </body>
 </html>

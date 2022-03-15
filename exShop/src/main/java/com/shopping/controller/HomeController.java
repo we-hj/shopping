@@ -36,4 +36,8 @@ public class HomeController {
 		return "home";
 	}
 	
+	
+//	Controller, Service, Dao ---> jsp 기준으로 작성
+//	Dto, Mapper ---> DB table 기준으로 작성
+	
 }
