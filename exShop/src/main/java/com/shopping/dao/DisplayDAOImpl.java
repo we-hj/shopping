@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
 import com.shopping.dto.Goods;
 
 @Repository
-public class DisplayDaoImpl implements DisplayDAO {
+public class DisplayDAOImpl implements DisplayDAO {
 	
 	@Inject
 	private SqlSession sql;
@@ -21,6 +21,12 @@ public class DisplayDaoImpl implements DisplayDAO {
 	@Override
 	public List<Goods> gdsList() throws Exception {
 		return sql.selectList(namespace + ".gdsList");
+	}
+
+
+	@Override
+	public Goods gdsDetail(int gdsId) throws Exception {
+		return sql.selectOne(namespace + ".gdsDetail", gdsId);
 	}
 
 }

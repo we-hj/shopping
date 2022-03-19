@@ -7,5 +7,10 @@
 <mapper namespace="com.shopping.mappers.member">
 
 	<!-- mapper 태그 사이에 필요한 sql 쿼리를 작성한다 -->
+	
+	<insert id="signUp" parameterType="com.shopping.dto.Member">
+		INSERT INTO shop_member (userId, userPw, userName, birthday, gender, email, phone)
+		VALUES (#{userId}, #{userPw}, #{userName}, #{birthday}, #{gender}, #{email}, #{phone});
+	</insert>
 
 </mapper>

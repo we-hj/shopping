@@ -17,17 +17,17 @@ public class Goods {
 //		PRIMARY KEY (gdsId)
 //	)
 	
-	int gdsId;
-	String gdsName;
-	String brand;
-	String largeCtgr;
-	String smallCtgr;
-	int price;
-	int stock;
-	String img;		//대표 이미지.썸네일.
-	String detail;	//상세 이미지
-	String gdsRegDate;	//상품상세(게시물)을 수정할 때 등록일을 수정일로 업데이트. 그냥 수정일 컬럼을 추가해야 할까?
-	char post;	//등록된 게시물 공개 여부
+	private int gdsId;
+	private String gdsName;
+	private String brand;
+	private String largeCtgr;
+	private String smallCtgr;
+	private int price;
+	private int stock;
+	private String img;		//대표 이미지.썸네일.
+	private String detail;	//상세 이미지
+	private String gdsRegDate;	//상품상세(게시물)을 수정할 때 등록일을 수정일로 업데이트. 그냥 수정일 컬럼을 추가해야 할까?
+	private char post;	//등록된 게시물 공개 여부
 	
 	
 	public int getGdsId() {

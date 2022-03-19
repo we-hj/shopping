@@ -8,4 +8,6 @@ public interface DisplayDAO {
 
 	public List<Goods> gdsList() throws Exception;
 
+	public Goods gdsDetail(int gdsId) throws Exception;
+
 }

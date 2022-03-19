@@ -21,4 +21,10 @@ public class DisplayServiceImpl implements DisplayService {
 		return dpDao.gdsList();
 	}
 
+
+	@Override
+	public Goods gdsDetail(int gdsId) throws Exception {
+		return dpDao.gdsDetail(gdsId);
+	}
+
 }
