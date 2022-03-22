@@ -21,4 +21,9 @@ public class MemberDAOImpl implements MemberDAO {
 		sql.insert(namespace + ".signUp", member);
 	}
 
+	@Override
+	public Member login(Member member) throws Exception {
+		return sql.selectOne(namespace + ".login", member);
+	}
+
 }

@@ -19,4 +19,9 @@ public class MemberServiceImpl implements MemberService {
 		memberDao.signUp(member);
 	}
 
+	@Override
+	public Member login(Member member) throws Exception {
+		return memberDao.login(member);
+	}
+
 }

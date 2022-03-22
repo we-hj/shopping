@@ -6,4 +6,6 @@ public interface MemberService {
 
 	public void signUp(Member member) throws Exception;
 
+	public Member login(Member member) throws Exception;
+
 }
